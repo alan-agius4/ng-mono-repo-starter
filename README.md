@@ -22,7 +22,7 @@ To get started, you need to:
 
 1) Clone the repository
 ```shell
-git clone https://github.com/alan-agius4/ng-mono-repo.git <project_name>
+git clone https://github.com/alan-agius4/ng-mono-repo-starter.git <project_name>
 ```
 
 2) Install dependencies
