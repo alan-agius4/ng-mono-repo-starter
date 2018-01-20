@@ -9,9 +9,9 @@ An Angular mono repository starter kit featuring `Jest`, `Lerna` and `ng-packagr
 - All the other features that `Jest`, `Lerna` and `ng-packagr` provide.
 
 ## The Stack
- - [Lerna][https://lernajs.io] - A tool for managing JavaScript projects with multiple packages. One of the major advantage of Lerna is semantic releases and package version syncing.
- - [Jest][https://facebook.github.io/jest] - Jest is used by Facebook to test all JavaScript code including React applications. One of Jest's philosophies is to provide an integrated "zero-configuration" experience.
- - [ng-packagr][https://github.com/dherges/ng-packagr] - Transpile and Bundle libraries to Angular Package Format.
+ - [Lerna](https://lernajs.io) - A tool for managing JavaScript projects with multiple packages. One of the major advantage of Lerna is semantic releases and package version syncing.
+ - [Jest](https://facebook.github.io/jest) - Jest is used by Facebook to test all JavaScript code including React applications. One of Jest's philosophies is to provide an integrated "zero-configuration" experience.
+ - [ng-packagr](https://github.com/dherges/ng-packagr) - Transpile and Bundle libraries to Angular Package Format.
 
 ## Get Started
 To get started, you need to:
