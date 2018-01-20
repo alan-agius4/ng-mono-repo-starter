@@ -10,6 +10,9 @@ jobs:
       - run:
           name: Installing npm packages
           command: npm install
+      - run:
+          name: Installing Build tools
+          command: npm run build-tools
       - run: 
           name: Build
           command: npm run build
