@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master.svg?style=svg)](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master)
+
 # Angular Mono Repo
 
 
