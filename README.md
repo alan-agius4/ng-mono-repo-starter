@@ -1,7 +1,12 @@
 [![CircleCI](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master.svg?style=svg)](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master)
 
-# Angular Mono Repo
+<p align="center">
+	<img alt="Angular and Lerna logos" src="https://s18.postimg.org/sle6bfuvt/ng-mono-repo.png">
+</p>
 
+# Angular Mono Repo Starter
+
+An Angular Mono respository starter kit.
 
 ## [Get started locally](#get-started-locally)
 To get started locally, you need to:
