@@ -31,7 +31,7 @@ async function updateDistPackageJson(directory: string): Promise<void> {
 
 // fail ci build if there is nothing to be released
 try {
-	execSync("node_modules\\.bin\\lerna updated");
+    execSync("./node_modules/.bin/lerna updated");
 } catch (error) {
 	console.error("No libraries to release.");
 	process.exit();
