@@ -1,0 +1,43 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:6.10
+    steps:
+      - checkout
+      - restore_cache:
+          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: Installing npm packages
+          command: npm install
+      - run: 
+          name: Build
+          command: npm run build
+      - save_cache:
+          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+  test:
+    docker:
+      - image: circleci/node:6.10
+    steps:
+      - checkout
+      - restore_cache:
+          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: Installing npm packages
+          command: npm install
+      - run: 
+          name: Test
+          command: npm t
+      - save_cache:
+          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+
+workflows:
+  version: 2
+  default_workflow:
+    jobs:
+      - test
+      - build

@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"module": "es2015",
+		"target": "es5",
+		"lib": [
+			"dom",
+			"es2015"
+		],
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"declaration": true,
+		"skipLibCheck": true,
+		"noImplicitReturns": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"allowUnreachableCode": false,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"noFallthroughCasesInSwitch": true,
+		"importHelpers": true,
+		"sourceMap": true,
+		"pretty": true,
+		"paths": {
+			"@speedy/*": [
+				"packages/*",
+				"packages/*/src"
+			]
+		}
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"packages/*/src/**/*.ts",
+		"packages/*/testing/**/*.ts"
+	]
+}

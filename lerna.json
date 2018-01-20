@@ -1,0 +1,36 @@
+{
+	"lerna": "2.8.0",
+	"version": "0.0.0",
+	"packages": [
+		"packages/*"
+	],
+	"commands": {
+		"publish": {
+			"yes": true,
+			"message": "chore(release): publish",
+			"allowBranch": [
+				"master",
+				"release/*"
+			],
+			"conventionalCommits": true,
+			"ignore": [
+				"*.spec.ts",
+				"*.md"
+			]
+		},
+		"bootstrap": {
+			"scope": [
+				"@speedy/*"
+			],
+			"hoist": true
+		},
+		"exec": {
+			"scope": [
+				"@speedy/*"
+			]
+		},
+		"clean": {
+			"yes": true
+		}
+	}
+}

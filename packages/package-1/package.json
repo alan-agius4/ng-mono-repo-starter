@@ -1,0 +1,16 @@
+{
+  "name": "@speedy/package-1",
+  "version": "0.0.0",
+  "description": "Sample project",
+  "author": "Alan Agius",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^1.7.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.5.2"
+  },
+  "typings": "dist/speedy-package-1.d.ts"
+}
