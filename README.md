@@ -54,7 +54,7 @@ These are:
 | test-tdd   | Run unit and integration tests in watch mode                                          |
 
 ## Testing
-For this project, I chose Jest as our test framework. While Karma is probably more common for Angulae testing, Karma is slower and doesn't offer some important features that Jest does.
+For this project, I chose Jest as our test framework. While Karma is probably more common for Angular testing, Karma is slower and doesn't offer some important features that Jest does.
 
 ### Using the debugger in VS Code
 Debugging is one of the places where VS Code really shines over other editors. This project comes pre-configured `launch.json`. All you need to do is hit `F5` in `VS Code` and get debugging!
