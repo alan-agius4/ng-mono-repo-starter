@@ -33,7 +33,7 @@ npm install
 
 Note: There is a `postinstall` script that after `npm install` has finished will bootstrap the mono repo.
 
-## Setting your project scope.
+## Setting your project scope
 It is recommanded that you use [scoped](https://docs.npmjs.com/misc/scope) npm packages. This is set to `@speedy` by default. To change it you need to modify a couple of files.
 
 These are:
