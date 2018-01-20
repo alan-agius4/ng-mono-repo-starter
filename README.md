@@ -45,7 +45,7 @@ These are:
 
 | Task       | Description                                                                           |
 |------------|---------------------------------------------------------------------------------------|
-| bootstrap  | Install global package dependencies, package dependencies and bootstrap the mono repo |
+| bootstrap  | Install packages dependencies and bootstrap the mono repo                             |
 | build      | Build all the packages inside the mono repo                                           |
 | build-tools| Build the tools script that are used for building the mono repo                       |
 | clean      | Clean up packages `node_modules` and `dist` folders                                   |
