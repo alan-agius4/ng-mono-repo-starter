@@ -27,7 +27,6 @@ ___
 | bootstrap  | Install global package dependencies, package dependencies and bootstrap the mono repo |
 | build      | Build all the packages inside the mono repo                                           |
 | build-tools| Build the tools script that are used for building the mono repo                       |
-| lint       | Lint source code                                                                      |
 | clean      | Clean up packages `node_modules` and `dist` folders                                   |
 | test       | Run unit and integration tests                                                        |
 | test-debug | Run unit and integration tests in debug mode                                          |
