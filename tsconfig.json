@@ -24,7 +24,6 @@
 		"pretty": true,
 		"paths": {
 			"@speedy/*": [
-				"packages/*",
 				"packages/*/src"
 			]
 		}
