@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master.svg?style=svg)](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master)
+[![CircleCI](https://circleci.com/gh/alan-agius4/ng-mono-repo-starter.svg?style=svg)](https://circleci.com/gh/alan-agius4/ng-mono-repo-starter)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovateapp.com/)
 
 <p align="center">
