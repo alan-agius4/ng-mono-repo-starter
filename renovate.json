@@ -1,7 +1,7 @@
 {
 	"pinVersions": false,
 	"semanticCommits": true,
-	"semanticPrefix": "build",
+	"semanticPrefix": "chore",
 	"commitMessage": "{{semanticPrefix}}(packages): update {{depName}} to version {{newVersion}}",
 	"separateMajorReleases": true
 }
