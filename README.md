@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master.svg?style=svg)](https://circleci.com/gh/alan-agius4/ng-mono-repo/tree/master)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovateapp.com/)
 
 <p align="center">
 	<img alt="Angular and Lerna logos" src="https://s18.postimg.org/sle6bfuvt/ng-mono-repo.png">
