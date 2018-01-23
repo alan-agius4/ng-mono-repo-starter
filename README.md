@@ -5,17 +5,18 @@
 </p>
 
 # Angular Mono Repo Starter
-An Angular mono repository starter kit featuring `Jest`, `Lerna` and `ng-packagr`. 
+An Angular mono repository starter kit featuring `Jest`, `Lerna`, `Compodoc` and `ng-packagr`. 
 
 ## Features
 - Supports scoped packages
 - Supports secondary entries similar to Angular's Testing Modules.
-- All the other features that `Jest`, `Lerna` and `ng-packagr` provide.
+- All the other features that `Jest`, `Lerna`, `Compodoc` and `ng-packagr` provide.
 
 ## The Stack
  - [Lerna](https://lernajs.io) - A tool for managing JavaScript projects with multiple packages. One of the major advantage of Lerna is semantic releases and package version syncing.
  - [Jest](https://facebook.github.io/jest) - Jest is used by Facebook to test all JavaScript code including React applications. One of Jest's philosophies is to provide an integrated "zero-configuration" experience.
  - [ng-packagr](https://github.com/dherges/ng-packagr) - Transpile and Bundle libraries to Angular Package Format.
+ - [Compodoc](https://compodoc.github.io/website/guides/getting-started.html) - Compodoc is a documentation tool for Angular applications & libraries. It generates awesome static documentation.
 
 ## Get Started
 To get started, you need to:
@@ -45,6 +46,7 @@ These are:
 
 | Task       | Description                                                                           |
 |------------|---------------------------------------------------------------------------------------|
+| aio        | Generates a static documentation of your libraries                                    |
 | bootstrap  | Install packages dependencies and bootstrap the mono repo                             |
 | build      | Build all the packages inside the mono repo                                           |
 | build-tools| Build the tools script that are used for building the mono repo                       |

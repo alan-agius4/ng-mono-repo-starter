@@ -12,7 +12,8 @@
 		"test-tdd": "jest --watchAll --no-cache",
 		"test-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --no-cache --runInBand",
 		"release": "node ./tools/tasks/release",
-		"postinstall": "npm run build-tools & npm run bootstrap"
+    "postinstall": "npm run build-tools & npm run bootstrap",
+    "aio": "compodoc -p ./tsconfig.json --output ./aio --hideGenerator --silent"
 	},
 	"devDependencies": {
 		"@angular/common": "^5.2.0",
@@ -22,6 +23,7 @@
 		"@angular/language-service": "^5.2.0",
 		"@angular/platform-browser": "^5.2.0",
 		"@angular/platform-browser-dynamic": "^5.2.0",
+		"@compodoc/compodoc": "^1.0.5",
 		"@speedy/commit-msg-hook": "^1.8.1",
 		"@types/fs-extra": "^5.0.0",
 		"@types/jest": "^22.0.1",
