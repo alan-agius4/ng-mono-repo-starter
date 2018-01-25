@@ -3,7 +3,8 @@ module.exports = {
 	globals: {
 		"ts-jest": {
 			tsConfigFile: "./tsconfig.test.json",
-		}
+		},
+		__TRANSFORM_HTML__: true
 	},
 	setupTestFrameworkScriptFile: "./test/test-setup.ts",
 	transform: {
