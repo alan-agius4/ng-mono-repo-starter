@@ -27,7 +27,7 @@
 		"@speedy/commit-msg-hook": "^1.8.1",
 		"@types/fs-extra": "^5.0.0",
 		"@types/jest": "^22.0.1",
-		"@types/lodash": "^4.14.87",
+		"@types/lodash": "^4.14.30",
 		"fs-extra": "^5.0.0",
 		"jest": "^22.1.1",
 		"jest-localstorage-mock": "^2.1.0",
