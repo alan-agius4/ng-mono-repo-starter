@@ -7,6 +7,19 @@
 		{
 			"type": "node",
 			"request": "launch",
+			"name": "Debug Current File",
+			"program": "${workspaceRoot}\\node_modules\\jest\\bin\\jest.js",
+			"args": [
+				"--cache",
+				"false",
+				"--runInBand",
+				"--testPathPattern",
+				"${fileBasenameNoExtension}"
+			]
+		},
+		{
+			"type": "node",
+			"request": "launch",
 			"name": "Debug Tests",
 			"program": "${workspaceRoot}\\node_modules\\jest\\bin\\jest.js",
 			"args": [
