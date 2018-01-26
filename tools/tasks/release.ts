@@ -41,12 +41,16 @@ try {
 const originalPublishTaggedInDir = LernaNpmUtils.publishTaggedInDir;
 LernaNpmUtils.publishTaggedInDir = async (
 	tag: string,
-	directory: string,
+	pkg: any,
 	registry: string,
 	callback: (error: string | Error | null, stout: string) => void
 ) => {
-	await updateDistPackageJson(directory);
-	originalPublishTaggedInDir(tag, join(directory, "dist"), registry, callback);
+	await updateDistPackageJson(pkg.location);
+	const amendedPkg = {
+		...pkg,
+		location: join(pkg.location, "dist")
+	};
+	originalPublishTaggedInDir(tag, amendedPkg, registry, callback);
 };
 
 const modulePath = resolve("./node_modules/lerna/lib/NpmUtilities.js");
