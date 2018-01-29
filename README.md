@@ -9,7 +9,7 @@
 An Angular mono repository starter kit featuring `Jest`, `Lerna`, `Compodoc`, `scss-bundle` and `ng-packagr`.
 
 ## Features
-- Flatten SCSS into a single file to improve build time for consummers
+- Flatten SCSS output into a single file to improve build time for consumers
 - Supports scoped packages
 - Supports secondary entries similar to Angular's Testing Modules.
 - All the other features that `Jest`, `Lerna`, `Compodoc` and `ng-packagr` provide.
