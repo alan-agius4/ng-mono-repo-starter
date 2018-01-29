@@ -37,7 +37,7 @@
 		"ng-packagr": "2.0.0-rc.11",
 		"rimraf": "^2.6.2",
 		"rxjs": "^5.5.5",
-		"scss-bundle": "^1.0.0",
+		"scss-bundle": "^2.1.0",
 		"ts-jest": "^22.0.1",
 		"tslib": "^1.7.0",
 		"typescript": "~2.6.2",
