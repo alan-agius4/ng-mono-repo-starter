@@ -1,10 +1,13 @@
 import { NgModule } from "@angular/core";
 
-import { SkeletonService } from "./skeleton/skeleton.service";
+import { SkeletonComponent } from "./skeleton/skeleton.component";
 
 @NgModule({
-	providers: [
-		SkeletonService
+	exports: [
+		SkeletonComponent
+	],
+	declarations: [
+		SkeletonComponent
 	]
 })
 export class Package1Module {

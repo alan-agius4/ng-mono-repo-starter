@@ -6,9 +6,10 @@
 </p>
 
 # Angular Mono Repo Starter
-An Angular mono repository starter kit featuring `Jest`, `Lerna`, `Compodoc` and `ng-packagr`. 
+An Angular mono repository starter kit featuring `Jest`, `Lerna`, `Compodoc`, `scss-bundle` and `ng-packagr`.
 
 ## Features
+- Flatten SCSS into a single file to improve build time for consummers
 - Supports scoped packages
 - Supports secondary entries similar to Angular's Testing Modules.
 - All the other features that `Jest`, `Lerna`, `Compodoc` and `ng-packagr` provide.
@@ -18,6 +19,7 @@ An Angular mono repository starter kit featuring `Jest`, `Lerna`, `Compodoc` and
  - [Jest](https://facebook.github.io/jest) - Jest is used by Facebook to test all JavaScript code including React applications. One of Jest's philosophies is to provide an integrated "zero-configuration" experience.
  - [ng-packagr](https://github.com/dherges/ng-packagr) - Transpile and Bundle libraries to Angular Package Format.
  - [Compodoc](https://compodoc.github.io/website/guides/getting-started.html) - Compodoc is a documentation tool for Angular applications & libraries. It generates awesome static documentation.
+ - [scss-bundle](https://github.com/SimplrJS/scss-bundle) - Bundles all SCSS imports into a single file
 
 ## Get Started
 To get started, you need to:
