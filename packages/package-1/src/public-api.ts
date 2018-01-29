@@ -1,3 +1,3 @@
-export { SkeletonService } from "./skeleton/skeleton.service";
+export { SkeletonComponent } from "./skeleton/skeleton.component";
 
 export * from "./module";

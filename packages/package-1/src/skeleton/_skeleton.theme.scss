@@ -1,0 +1,7 @@
+@mixin ogb-skeleton-theme($theme) {
+	$bg-color: map-get($theme, bg-color);
+
+	.ogb-skeleton {
+		background-color: $bg-color;
+	}
+}

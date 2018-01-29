@@ -22,13 +22,21 @@
 		"importHelpers": true,
 		"sourceMap": true,
 		"pretty": true,
+		"types": [
+			"jest"
+		],
 		"paths": {
 			"@speedy/*": [
+				"node_modules/@speedy/*/dist",
 				"packages/*/src"
 			]
 		}
 	},
 	"exclude": [
+		"tools",
 		"node_modules"
-	]
+	],
+	"angularCompilerOptions": {
+		"preserveWhitespaces": false
+	}
 }

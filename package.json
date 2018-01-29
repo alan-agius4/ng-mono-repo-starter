@@ -12,8 +12,8 @@
 		"test-tdd": "jest --watchAll --no-cache",
 		"test-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --no-cache --runInBand",
 		"release": "node ./tools/tasks/release",
-    "postinstall": "npm run build-tools & npm run bootstrap",
-    "aio": "compodoc -p ./tsconfig.json --output ./aio --hideGenerator --silent"
+		"postinstall": "npm run build-tools & npm run bootstrap",
+		"aio": "compodoc -p ./tsconfig.json --output ./aio --hideGenerator --silent"
 	},
 	"devDependencies": {
 		"@angular/common": "^5.2.0",
@@ -37,6 +37,7 @@
 		"ng-packagr": "2.0.0-rc.11",
 		"rimraf": "^2.6.2",
 		"rxjs": "^5.5.5",
+		"scss-bundle": "^2.1.2",
 		"ts-jest": "^22.0.1",
 		"tslib": "^1.7.0",
 		"typescript": "~2.6.2",
