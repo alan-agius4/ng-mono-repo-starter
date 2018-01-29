@@ -2,6 +2,6 @@
 	"pinVersions": false,
 	"semanticCommits": true,
 	"semanticPrefix": "chore",
-	"commitMessage": "{{semanticPrefix}}(packages): update {{depName}} to version {{newVersion}}",
+	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
 	"separateMajorReleases": false
 }
