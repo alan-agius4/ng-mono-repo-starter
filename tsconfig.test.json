@@ -1,11 +1,11 @@
 {
 	"extends": "./tsconfig.json",
 	"compilerOptions": {
-		"module": "commonjs",
-		"types": [
-			"jest"
-		]
+		"module": "commonjs"
 	},
+	"exclude": [
+		"node_modules"
+	],
 	"include": [
 		"./test/**/*.ts",
 		"./packages/*/src/**/*.spec.ts"

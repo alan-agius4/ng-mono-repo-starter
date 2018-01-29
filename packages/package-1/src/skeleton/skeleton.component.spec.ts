@@ -38,9 +38,5 @@ describe("SkeletonComponentSpecs", () => {
 		it("should have the text set", async(() => {
 			expect(element.textContent).toMatch("Sample");
 		}));
-
-		it("should have the proper css class", async(() => {
-			expect(element).toHaveClass("big-title");
-		}));
 	});
 });
