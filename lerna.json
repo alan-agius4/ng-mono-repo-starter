@@ -32,5 +32,8 @@
 		"clean": {
 			"yes": true
 		}
-	}
+	},
+	"npmClientArgs": [
+		"--no-package-lock"
+	]
 }
