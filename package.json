@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"lerna": "lerna",
-		"bootstrap": "lerna bootstrap -- --no-package-lock",
+		"bootstrap": "lerna bootstrap",
 		"build": "lerna exec -- node ../../tools/tasks/build",
 		"build-tools": "tsc -p ./tools/tsconfig.json",
 		"clean": "lerna clean & rimraf packages/*/dist",
