@@ -29,6 +29,10 @@
 			"@speedy/*": [
 				"node_modules/@speedy/*/dist",
 				"packages/*/src"
+			],
+			"*": [
+				"../../node_modules/*",
+				"node_modules/*"
 			]
 		}
 	},
