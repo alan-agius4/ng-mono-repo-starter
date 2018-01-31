@@ -28,7 +28,8 @@
 		"paths": {
 			"@speedy/*": [
 				"node_modules/@speedy/*/dist",
-				"packages/*/src"
+				"packages/*/src",
+				"../*"
 			],
 			"*": [
 				"../../node_modules/*",
