@@ -15,6 +15,5 @@
   },
   "devDependencies": {
     "@speedy/package-1": "0.0.0"
-  },
-  "typings": "dist/speedy-package-2.d.ts"
+  }
 }

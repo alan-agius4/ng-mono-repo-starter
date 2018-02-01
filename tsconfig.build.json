@@ -1,0 +1,16 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"paths": {
+			"@speedy/*": [
+				"../node_modules/@speedy/*/dist",
+				"../../node_modules/@speedy/*/dist",
+				"../../dist"
+			]
+		}
+	},
+	"angularCompilerOptions": {
+		"preserveWhitespaces": false,
+		"fullTemplateTypeCheck": true
+	}
+}
