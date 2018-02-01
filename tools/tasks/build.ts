@@ -36,12 +36,10 @@ const originalPrepareTsConfig = ngc.prepareTsConfig;
 const prepareTsConfigPatched: BuildStep = ({ artefacts, entryPoint, pkg }) => {
 	originalPrepareTsConfig({ artefacts, entryPoint, pkg });
 
-	const { options } = readConfiguration("../../tsconfig.json");
-
+	const { options } = readConfiguration("../../tsconfig.build.json");
 	artefacts.tsConfig.options = {
-		...artefacts.tsConfig.options,
 		...options,
-		baseUrl: "."
+		...artefacts.tsConfig.options
 	};
 };
 

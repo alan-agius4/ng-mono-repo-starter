@@ -26,23 +26,13 @@
 			"jest"
 		],
 		"paths": {
-			"@speedy/*": [
-				"node_modules/@speedy/*/dist",
-				"packages/*/src",
-				"../*"
-			],
-			"*": [
-				"../../node_modules/*",
-				"node_modules/*"
+			"@speedy*": [
+				"packages/*/src/index.ts"
 			]
 		}
 	},
 	"exclude": [
-		"tools",
+		"**/dist",
 		"node_modules"
-	],
-	"angularCompilerOptions": {
-		"preserveWhitespaces": false,
-		"fullTemplateTypeCheck": true
-	}
+	]
 }

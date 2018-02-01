@@ -1,4 +1,5 @@
 import { TestBed } from "@angular/core/testing";
+import { Package1TestingModule } from "@speedy/package-1/testing";
 
 import { SkeletonService } from "./skeleton.service";
 
@@ -9,6 +10,7 @@ describe("SkeletonService", () => {
 	beforeEach(() => {
 		TestBed.configureTestingModule({
 			providers: [
+				Package1TestingModule,
 				SkeletonService
 			]
 		});

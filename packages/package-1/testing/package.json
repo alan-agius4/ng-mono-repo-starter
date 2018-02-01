@@ -1,4 +1,3 @@
 {
-  "name": "@speedy/package-1/testing",
-  "typings": "../dist/testing/speedy-package-1-testing.d.ts"
+  "name": "@speedy/package-1/testing"
 }

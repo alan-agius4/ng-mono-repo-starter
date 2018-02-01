@@ -42,6 +42,7 @@ It is recommanded that you use [scoped](https://docs.npmjs.com/misc/scope) npm p
 
 These are:
 - `tsconfig.json`
+- `tsconfig.build.json`
 - `lerna.json`
 - `jest.config.js`
 
