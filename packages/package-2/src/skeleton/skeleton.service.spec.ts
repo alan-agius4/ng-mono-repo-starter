@@ -17,10 +17,10 @@ describe("SkeletonService", () => {
 
 		skeletonService = TestBed.get(SkeletonService);
 
-		spyOn(console, "log");
+		jest.spyOn(console, "log").mockReturnThis();
 	});
 
-	it("should log successfully", () => {
+	test("should log successfully", () => {
 		const message = "Hello";
 		skeletonService.log2("log", message);
 		expect(console.log).toHaveBeenCalledWith(message);

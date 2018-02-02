@@ -4,6 +4,7 @@
 		"module": "commonjs"
 	},
 	"exclude": [
+		"**/dist",
 		"node_modules"
 	],
 	"include": [
