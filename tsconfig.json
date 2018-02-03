@@ -10,7 +10,6 @@
 		"moduleResolution": "node",
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
-		"declaration": true,
 		"skipLibCheck": true,
 		"noImplicitReturns": true,
 		"noImplicitAny": true,
@@ -21,6 +20,7 @@
 		"noFallthroughCasesInSwitch": true,
 		"importHelpers": true,
 		"sourceMap": true,
+		"inlineSources": true,
 		"pretty": true,
 		"types": [
 			"jest"
