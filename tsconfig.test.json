@@ -3,10 +3,6 @@
 	"compilerOptions": {
 		"module": "commonjs"
 	},
-	"exclude": [
-		"**/dist",
-		"node_modules"
-	],
 	"include": [
 		"./test/**/*.ts",
 		"./packages/*/src/**/*.spec.ts"

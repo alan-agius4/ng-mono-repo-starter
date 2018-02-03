@@ -10,8 +10,6 @@
 			"name": "Debug Current File",
 			"program": "${workspaceRoot}\\node_modules\\jest\\bin\\jest.js",
 			"args": [
-				"--cache",
-				"false",
 				"--runInBand",
 				"--testPathPattern",
 				"${fileBasenameNoExtension}"
@@ -23,8 +21,6 @@
 			"name": "Debug Tests",
 			"program": "${workspaceRoot}\\node_modules\\jest\\bin\\jest.js",
 			"args": [
-				"--cache",
-				"false",
 				"--runInBand"
 			]
 		}
