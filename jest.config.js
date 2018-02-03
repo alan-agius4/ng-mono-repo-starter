@@ -3,6 +3,7 @@ module.exports = {
 	globals: {
 		"ts-jest": {
 			tsConfigFile: "./tsconfig.test.json",
+			enableTsDiagnostics: true
 		},
 		__TRANSFORM_HTML__: true
 	},
