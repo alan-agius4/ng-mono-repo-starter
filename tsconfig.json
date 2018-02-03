@@ -26,7 +26,7 @@
 			"jest"
 		],
 		"paths": {
-			"@speedy*": [
+			"@speedy/*": [
 				"packages/*/src/index.ts"
 			]
 		}
