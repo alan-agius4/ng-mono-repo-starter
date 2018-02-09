@@ -14,6 +14,7 @@
 			],
 			"conventionalCommits": true,
 			"ignore": [
+				"*.snap",
 				"*.spec.ts",
 				"*.md"
 			]
