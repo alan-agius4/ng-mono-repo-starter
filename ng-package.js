@@ -1,6 +1,6 @@
 module.exports = {
 	lib: {
-		entryFile: "src/public-api.ts",
+		entryFile: "public-api.ts",
 		umdModuleIds: {
 			// vendors
 			"tslib": "tslib",
