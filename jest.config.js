@@ -12,7 +12,7 @@ module.exports = {
 		"^.+\\.(ts|js|html)$": "<rootDir>/node_modules/jest-preset-angular/preprocessor.js"
 	},
 	moduleNameMapper: {
-		"@speedy/(.*)": "<rootDir>/packages/$1/src"
+		"@speedy/(.*)": "<rootDir>/packages/$1"
 	},
 	testRegex: ".*spec.ts$",
 	moduleFileExtensions: [

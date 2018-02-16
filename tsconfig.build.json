@@ -4,9 +4,9 @@
 		"declaration": true,
 		"paths": {
 			"@speedy/*": [
-				"../node_modules/@speedy/*/dist",
+				"node_modules/@speedy/*/dist",
 				"../../node_modules/@speedy/*/dist",
-				"../../dist"
+				"../dist"
 			]
 		}
 	},

@@ -27,7 +27,7 @@
 		],
 		"paths": {
 			"@speedy/*": [
-				"packages/*/src/index.ts"
+				"packages/*/index.ts"
 			]
 		}
 	},
