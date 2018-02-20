@@ -8,7 +8,7 @@ async function bundleScss() {
 	console.info("Bundling SCSS");
 
 	const { found, bundledContent, imports } = await new Bundler()
-		.Bundle("./src/_theme.scss", ["./src/**/*.scss"]);
+		.Bundle("./src/_theming.scss", ["./src/**/*.scss"]);
 
 	if (imports) {
 		const cwd = process.cwd();
@@ -24,7 +24,7 @@ async function bundleScss() {
 	}
 
 	if (found) {
-		await writeFile("./dist/_theme.scss", bundledContent);
+		await writeFile("./dist/_theming.scss", bundledContent);
 	}
 }
 
