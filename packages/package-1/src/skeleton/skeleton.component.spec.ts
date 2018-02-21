@@ -21,7 +21,7 @@ describe("SkeletonComponentSpecs", () => {
 			element = fixture.debugElement.nativeElement.querySelector("h1") as HTMLHeadingElement;
 		});
 
-		it("should have the text set", async(() => {
+		test("should have the text set", async(() => {
 			expect(element.textContent).toMatch("Sample");
 		}));
 	});
