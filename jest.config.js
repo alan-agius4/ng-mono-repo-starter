@@ -38,7 +38,6 @@ module.exports = {
 	coveragePathIgnorePatterns: [
 		".*(spec|const|config|mock|module|public-api|index|mock|model).ts"
 	],
-	mapCoverage: true,
 	coverageReporters: [
 		"lcovonly",
 		"html"
