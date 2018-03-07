@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
       - run:
           name: Installing npm packages
           command: npm install
@@ -17,7 +17,7 @@ jobs:
           name: Build
           command: npm run build
       - save_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - node_modules
   test:
@@ -26,7 +26,7 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
       - run:
           name: Installing npm packages
           command: npm install
@@ -34,7 +34,7 @@ jobs:
           name: Test
           command: npm t
       - save_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - node_modules
 
