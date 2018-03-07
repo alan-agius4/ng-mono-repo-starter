@@ -3,8 +3,5 @@
 	"semanticCommits": true,
 	"semanticPrefix": "chore",
 	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
-	"separateMajorReleases": false,
-	"packageFiles": [
-             "package.json"
-	]
+	"separateMajorReleases": false
 }
