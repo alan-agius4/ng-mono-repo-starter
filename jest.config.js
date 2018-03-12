@@ -33,7 +33,8 @@ module.exports = {
 		"<rootDir>/packages/*"
 	],
 	collectCoverageFrom: [
-		"packages/*/src/**/*.ts",
+		"packages/*/*/src/**/*.ts",
+		"packages/*/src/**/*.ts"
 	],
 	coveragePathIgnorePatterns: [
 		".*(spec|const|config|mock|module|public-api|index|mock|model).ts"
