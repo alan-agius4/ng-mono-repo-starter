@@ -12,5 +12,6 @@ module.exports = {
 			"@speedy/package-1": "speedy.package-1",
 			"@speedy/package-1/testing": "speedy.package-1.testing",
 		}
-	}
+	},
+	whitelistedNonPeerDependencies: ["."]
 }
