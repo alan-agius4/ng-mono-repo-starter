@@ -32,7 +32,7 @@
 		"jest": "^22.1.1",
 		"jest-localstorage-mock": "^2.1.0",
 		"jest-preset-angular": "^5.0.0",
-		"lerna": "2.9.0",
+		"lerna": "2.10.1",
 		"lodash": "^4.17.4",
 		"ng-packagr": "^2.3.0",
 		"rimraf": "^2.6.2",
