@@ -2,7 +2,7 @@
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovateapp.com/)
 
 <p align="center">
-	<img alt="Angular and Lerna logos" src="https://s18.postimg.org/sle6bfuvt/ng-mono-repo.png">
+	<img alt="Angular and Lerna logos" src="https://s18.postimg.cc/sle6bfuvt/ng-mono-repo.png">
 </p>
 
 # Angular Mono Repo Starter
