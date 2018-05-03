@@ -27,6 +27,7 @@
 		"skipTemplateCodegen": true,
 		"strictMetadataEmit": true,
 		"fullTemplateTypeCheck": true,
-		"strictInjectionParameters": true
+		"strictInjectionParameters": true,
+		"disableTypeScriptVersionCheck": true
 	}
 }
