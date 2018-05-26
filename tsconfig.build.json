@@ -3,10 +3,11 @@
 	"compilerOptions": {
 		"declaration": true,
 		"paths": {
+			"@speedy/*/testing": [
+				"packages/*/dist/testing"
+			],
 			"@speedy/*": [
-				"node_modules/@speedy/*/dist",
-				"../../node_modules/@speedy/*/dist",
-				"../dist"
+				"packages/*/dist"
 			]
 		}
 	},

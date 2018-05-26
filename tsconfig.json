@@ -20,7 +20,7 @@
 		"noUnusedLocals": true,
 		"noFallthroughCasesInSwitch": true,
 		"importHelpers": true,
-		"sourceMap": true,
+		"inlineSourceMap": true,
 		"inlineSources": true,
 		"pretty": true,
 		"types": [
