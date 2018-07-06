@@ -2,11 +2,11 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:6.10
+      - image: circleci/node:8.9.4@sha256:24e35a687948c0a1addfa7e6145f5ae22fda663b457139380f3132e16be0ffb5
     steps:
       - checkout
       - restore_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
       - run:
           name: Installing npm packages
           command: npm install
@@ -17,16 +17,16 @@ jobs:
           name: Build
           command: npm run build
       - save_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - node_modules
   test:
     docker:
-      - image: circleci/node:6.10
+      - image: circleci/node:8.9.4@sha256:24e35a687948c0a1addfa7e6145f5ae22fda663b457139380f3132e16be0ffb5
     steps:
       - checkout
       - restore_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
       - run:
           name: Installing npm packages
           command: npm install
@@ -34,7 +34,7 @@ jobs:
           name: Test
           command: npm t
       - save_cache:
-          key: speedy-{{ .Branch }}-{{ checksum "package.json" }}
+          key: speedy-{{ .Environment.CACHE_VERSION }}-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - node_modules
 

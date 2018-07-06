@@ -11,6 +11,7 @@
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"skipLibCheck": true,
+		"strictPropertyInitialization": true,
 		"noImplicitReturns": true,
 		"noImplicitAny": true,
 		"strictNullChecks": true,
@@ -19,7 +20,7 @@
 		"noUnusedLocals": true,
 		"noFallthroughCasesInSwitch": true,
 		"importHelpers": true,
-		"sourceMap": true,
+		"inlineSourceMap": true,
 		"inlineSources": true,
 		"pretty": true,
 		"types": [
@@ -32,7 +33,7 @@
 		}
 	},
 	"exclude": [
-		"**/tools",
+		"tools",
 		"**/node_modules",
 		"**/dist",
 		"node_modules"

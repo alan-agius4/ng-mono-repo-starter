@@ -3,7 +3,7 @@ module.exports = {
 	globals: {
 		"ts-jest": {
 			tsConfigFile: "./tsconfig.test.json",
-			enableTsDiagnostics: true
+			useExperimentalLanguageServer: true
 		},
 		__TRANSFORM_HTML__: true
 	},
@@ -33,12 +33,12 @@ module.exports = {
 		"<rootDir>/packages/*"
 	],
 	collectCoverageFrom: [
-		"packages/*/src/**/*.ts",
+		"packages/*/*/src/**/*.ts",
+		"packages/*/src/**/*.ts"
 	],
 	coveragePathIgnorePatterns: [
 		".*(spec|const|config|mock|module|public-api|index|mock|model).ts"
 	],
-	mapCoverage: true,
 	coverageReporters: [
 		"lcovonly",
 		"html"

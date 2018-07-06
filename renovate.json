@@ -3,5 +3,10 @@
 	"semanticCommits": true,
 	"semanticPrefix": "chore",
 	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
-	"separateMajorReleases": false
+	"separateMajorMinor": false,
+	"labels": [
+		"house keeping",
+		"dependencies",
+		"renovate"
+	]
 }
