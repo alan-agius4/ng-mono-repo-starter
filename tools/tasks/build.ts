@@ -1,7 +1,11 @@
 import { ngPackagr } from "ng-packagr";
 import { relative } from "path";
+import { NEVER } from "rxjs";
+import { catchError, switchMap } from "rxjs/operators";
 import { Bundler } from "scss-bundle";
 import { writeFile } from "fs-extra";
+
+export const isWatchMode = !!process.env.WATCH_MODE;
 
 /** Bundles all SCSS files into a single file */
 async function bundleScss() {
@@ -31,6 +35,18 @@ async function bundleScss() {
 ngPackagr()
 	.forProject("./ng-package.js")
 	.withTsConfig("../../tsconfig.build.json")
-	.build()
-	.then(bundleScss)
-	.catch(() => process.exitCode = 1);
+	.withOptions({
+		watch: isWatchMode
+	})
+	.buildAsObservable()
+	.pipe(
+		switchMap(bundleScss),
+		catchError(() => {
+			if (!isWatchMode) {
+				process.exitCode = 1;
+			}
+			return NEVER;
+		})
+	)
+	.subscribe();
+
