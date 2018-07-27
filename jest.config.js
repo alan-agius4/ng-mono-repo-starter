@@ -1,5 +1,6 @@
 module.exports = {
 	bail: true,
+	testURL: "http://localhost",
 	globals: {
 		"ts-jest": {
 			tsConfigFile: "./tsconfig.test.json",
