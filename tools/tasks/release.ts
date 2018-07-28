@@ -38,8 +38,8 @@ try {
 }
 
 // https://github.com/lerna/lerna/issues/91
-const originalPublishTaggedInDir = LernaNpmUtils.publishTaggedInDir;
-LernaNpmUtils.publishTaggedInDir = async (
+const originalPublishTaggedInDir = (LernaNpmUtils as any).publishTaggedInDir;
+(LernaNpmUtils as any).publishTaggedInDir = async (
 	tag: string,
 	pkg: any,
 	registry: string,
