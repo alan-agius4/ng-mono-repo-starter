@@ -3,7 +3,6 @@ node_modules
 .cache
 dist
 .idea
-.ng_pkg_build
 coverage
 *.log
 *.tgz
