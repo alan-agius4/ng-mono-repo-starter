@@ -48,16 +48,17 @@ These are:
 
 ## NPM Tasks
 
-| Task       | Description                                                                           |
-|------------|---------------------------------------------------------------------------------------|
-| aio        | Generates a static documentation of your libraries                                    |
-| bootstrap  | Install packages dependencies and bootstrap the mono repo                             |
-| build      | Build all the packages inside the mono repo                                           |
-| build-tools| Build the tools script that are used for building the mono repo                       |
-| clean      | Clean up packages `node_modules` and `dist` folders                                   |
-| test       | Run unit and integration tests                                                        |
-| test-debug | Run unit and integration tests in debug mode                                          |
-| test-tdd   | Run unit and integration tests in watch mode                                          |
+| Task       | Description                                                                                     |
+|------------|-------------------------------------------------------------------------------------------------|
+| aio        | Generates a static documentation of your libraries                                              |
+| bootstrap  | Install packages dependencies and bootstrap the mono repo                                       |
+| build      | Build all the packages inside the mono repo                                                     |
+| watch      | Build all the packages inside the mono repo and perform an incremental build when a file changes (NB: in case you have cross dependencies it's recommanded that you first perform a build)|
+| build-tools| Build the tools script that are used for building the mono repo                                 |
+| clean      | Clean up packages `node_modules` and `dist` folders                                             |
+| test       | Run unit and integration tests                                                                  |
+| test-debug | Run unit and integration tests in debug mode                                                    |
+| test-tdd   | Run unit and integration tests in watch mode                                                    |
 
 ## Testing
 For this project, I chose Jest as our test framework. While Karma is probably more common for Angular testing, Karma is slower and doesn't offer some important features that Jest does.
