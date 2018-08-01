@@ -8,7 +8,7 @@
 		"build": "lerna exec node ../../tools/tasks/build",
 		"watch": "cross-env WATCH_MODE=true lerna exec --parallel node ../../tools/tasks/build",
 		"build-tools": "tsc -p ./tools/tsconfig.json",
-		"clean": "lerna clean & rimraf packages/*/dist",
+		"clean": "lerna clean && rimraf packages/*/dist",
 		"test": "jest",
 		"test-tdd": "jest --watchAll --no-cache",
 		"test-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --no-cache --runInBand",
