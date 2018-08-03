@@ -33,7 +33,7 @@
 		"fs-extra": "^7.0.0",
 		"jest": "^23.0.0",
 		"jest-localstorage-mock": "^2.1.0",
-		"jest-preset-angular": "^5.0.0",
+		"jest-preset-angular": "^6.0.0",
 		"lerna": "2.11.0",
 		"lodash": "^4.17.4",
 		"ng-packagr": "^4.0.0",
