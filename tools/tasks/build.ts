@@ -9,7 +9,7 @@ export const isWatchMode = !!process.env.WATCH_MODE;
 
 /** Bundles all SCSS files into a single file */
 async function bundleScss() {
-	console.info("Bundling SCSS");
+	console.info("Starting Bundling SCSS");
 
 	const { found, bundledContent, imports } = await new Bundler()
 		.Bundle("./src/_theming.scss", ["./src/**/*.scss"]);
@@ -30,6 +30,8 @@ async function bundleScss() {
 	if (found) {
 		await writeFile("./dist/_theming.scss", bundledContent);
 	}
+
+	console.info("Finished Bundling SCSS");
 }
 
 ngPackagr()
