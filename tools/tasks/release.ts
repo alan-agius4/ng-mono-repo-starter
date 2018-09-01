@@ -60,4 +60,8 @@ const modulePath = resolve("./node_modules/@lerna/npm-publish/npm-publish.js");
 
 require("module")._cache[modulePath].exports = lernaNpmPublish;
 process.argv.splice(0, 2, "publish");
-require("@lerna/cli")().parse(process.argv);
+
+const publishCmd = require("@lerna/publish/command");
+require("@lerna/cli")()
+	.command(publishCmd)
+	.parse(process.argv);
