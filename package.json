@@ -40,7 +40,7 @@
 		"rimraf": "^2.6.2",
 		"rxjs": "^6.0.0",
 		"scss-bundle": "^2.1.0",
-		"tslib": "^1.9.0",
+    "tslib": "^1.9.0",
     "tsickle": "^0.32.0",
 		"typescript": "~3.1.0",
 		"zone.js": "^0.8.16"
