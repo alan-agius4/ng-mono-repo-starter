@@ -9,9 +9,9 @@
 		"dependencies",
 		"renovate"
 	],
-		"major": {
+	"major": {
 		"devDependencies": {
 			"enabled": false
 		}
-	},
+	}
 }
