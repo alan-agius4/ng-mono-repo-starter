@@ -10,7 +10,7 @@
 		"renovate"
 	],
 	"major": {
-		"devDependencie2s": {
+		"devDependencies": {
 			"enabled": false
 		}
 	}
