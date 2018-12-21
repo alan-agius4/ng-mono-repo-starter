@@ -8,10 +8,5 @@
 		"house keeping",
 		"dependencies",
 		"renovate"
-	],
-	"major": {
-		"devDependencies": {
-			"enabled": false
-		}
-	}
+	]
 }
