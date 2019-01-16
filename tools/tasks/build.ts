@@ -12,13 +12,13 @@ async function bundleScss() {
 	console.info("Starting Bundling SCSS");
 
 	const { found, bundledContent, imports } = await new Bundler()
-		.Bundle("./src/_theming.scss", ["./src/**/*.scss"]);
+		.Bundle("./_theming.scss", ["./!(dist|node_modules)/**/*.scss"], undefined, ["^~"]);
 
 	if (imports) {
 		const cwd = process.cwd();
 
 		const filesNotFound = imports
-			.filter(x => !x.found)
+			.filter(x => !x.found && !x.ignored)
 			.map(x => relative(cwd, x.filePath));
 
 		if (filesNotFound.length) {
