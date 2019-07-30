@@ -1,5 +1,5 @@
 import { Dictionary } from "lodash";
-import * as lernaNpmPublish from "@lerna/npm-publish";
+import lernaNpmPublish from "@lerna/npm-publish";
 import { join, resolve } from "path";
 import { execSync } from "child_process";
 import { readJsonSync, writeJsonSync } from "fs-extra";

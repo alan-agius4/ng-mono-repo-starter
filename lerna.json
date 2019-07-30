@@ -1,5 +1,4 @@
 {
-	"lerna": "3.0.2",
 	"version": "0.0.0",
 	"packages": [
 		"packages/*"
@@ -24,6 +23,7 @@
 			"scope": [
 				"@speedy/*"
 			],
+			"noCi": true,
 			"hoist": true
 		},
 		"exec": {
