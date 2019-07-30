@@ -11,6 +11,7 @@
 		"noImplicitAny": true,
 		"noUnusedParameters": true,
 		"noUnusedLocals": true,
+		"esModuleInterop": true,
 		"noFallthroughCasesInSwitch": true,
 		"skipLibCheck": true,
 		"moduleResolution": "node",
