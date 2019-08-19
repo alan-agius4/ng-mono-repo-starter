@@ -39,7 +39,7 @@
     "ng-packagr": "^5.4.3",
     "rimraf": "^3.0.0",
     "rxjs": "~6.5.2",
-    "scss-bundle": "^2.5.0",
+    "scss-bundle": "^3.0.0",
     "tsickle": "^0.36.0",
     "tslib": "^1.10.0",
     "typescript": "~3.5.3",
