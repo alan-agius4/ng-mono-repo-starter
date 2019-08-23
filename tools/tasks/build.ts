@@ -12,7 +12,7 @@ async function bundleScss() {
 	console.info("Starting Bundling SCSS");
 
 	const { found, bundledContent, imports } = await new Bundler()
-		.Bundle("./src/_theming.scss", ["./!(dist|node_modules)/**/*.scss"], undefined, ["^~"]);
+		.bundle("./src/_theming.scss", ["./!(dist|node_modules)/**/*.scss"], undefined, ["^~"]);
 
 	if (imports) {
 		const cwd = process.cwd();
