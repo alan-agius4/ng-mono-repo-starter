@@ -12,7 +12,7 @@
     "test": "jest",
     "test-tdd": "jest --watchAll --no-cache",
     "test-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --no-cache --runInBand",
-    "release": "node ./tools/tasks/release",
+    "release": "lerna publish",
     "postinstall": "npm run build-tools & npm run bootstrap",
     "aio": "compodoc -p ./tsconfig.json --output ./aio --hideGenerator --silent"
   },
