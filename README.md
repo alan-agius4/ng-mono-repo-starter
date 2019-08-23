@@ -59,7 +59,7 @@ These are:
 | test         | Run unit and integration tests                                                                                                                                                             |
 | test-debug   | Run unit and integration tests in debug mode                                                                                                                                               |
 | test-tdd     | Run unit and integration tests in watch mode                                                                                                                                               |
-| release      | Runs `lerna publish $@`, but with the underlying `npm publish` calls patched to use the `dist` subdirectory. E.g. `npm run release premajor --preid alpha --npm-tag alpha`                     |
+| release      | Runs `lerna publish`                   |
 
 ## Testing
 For this project, I chose Jest as our test framework. While Karma is probably more common for Angular testing, Karma is slower and doesn't offer some important features that Jest does.
