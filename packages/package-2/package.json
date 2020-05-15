@@ -5,7 +5,7 @@
   "author": "Alan Agius",
   "license": "MIT",
   "dependencies": {
-    "tslib": "^1.9.0"
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
     "@angular/common": "^8.0.0",
