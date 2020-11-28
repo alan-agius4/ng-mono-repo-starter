@@ -22,7 +22,7 @@
     "@angular/compiler-cli": "^8.2.0",
     "@angular/core": "^8.2.0",
     "@angular/language-service": "^8.2.0",
-    "@angular/platform-browser": "^8.2.0",
+    "@angular/platform-browser": "^11.0.0",
     "@angular/platform-browser-dynamic": "^8.2.0",
     "@compodoc/compodoc": "^1.1.10",
     "@speedy/commit-msg-hook": "^1.8.1",
