@@ -9,7 +9,7 @@
   },
   "peerDependencies": {
     "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0",
+    "@angular/core": "^11.0.0",
     "@speedy/package-1": "^0.0.0",
     "rxjs": "^6.0.0"
   },
